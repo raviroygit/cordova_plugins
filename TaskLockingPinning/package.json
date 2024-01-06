@@ -1,0 +1,17 @@
+{
+  "name": "com.dipoletechi.tasklocking",
+  "version": "0.1.0",
+  "description": "Task locking or app pinning",
+  "cordova": {
+    "id": "com.dipoletechi.tasklocking",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "",
+  "license": "ISC"
+}

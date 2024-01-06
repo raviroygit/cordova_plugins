@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="com.dipoletechi.cameraXface" version="0.1.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+     <name>CameraXface</name>
+      <js-module name="CameraXface" src="www/CameraXface.js"><clobbers target="cordova.plugins.CameraXface" /></js-module>
+      <platform name="android">
+        <config-file parent="/*" target="res/xml/config.xml">
+           <feature name="CameraXface">
+             <param name="android-package" value="com.dipoletechi.cameraXface.CameraXface" />
+           </feature>
+        </config-file><config-file parent="/*" target="AndroidManifest.xml"></config-file>
+       <source-file src="src/android/CameraXface.java" target-dir="src/com/dipoletechi/cameraXface/CameraXface" />
+       <framework src="androidx.camera:camera-core:1.2.0-alpha04" />
+       <framework src="androidx.camera:camera-camera2:1.2.0-alpha04" />
+       <framework src="androidx.camera:camera-lifecycle:1.2.0-alpha04" />
+       <framework src="androidx.camera:camera-view:1.2.0-alpha04" />
+       <framework src="com.google.android.gms:play-services-mlkit-face-detection:17.1.0" />
+
+       </platform>
+</plugin>

@@ -1,0 +1,17 @@
+{
+  "name": "com.dipoletechi.cameraXface",
+  "version": "0.1.0",
+  "description": "cordova face detector using camerax plugin",
+  "cordova": {
+    "id": "com.dipoletechi.cameraXface",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Dipole tech innovation pvt ltd",
+  "license": "ISC"
+}
